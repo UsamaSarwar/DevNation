@@ -4,7 +4,7 @@
 
 <h1 align="center">Flutter Complete Bootcamp</h1>
 
-<p style="text-align: justify">
+<p align="justify">
 Flutter is a cross-platform framework that empowers businesses to develop natively compiled beautiful and productive applications from a single code base by eliminating the need for separate coders for Mobile, Web, Desktop and Embedded Platforms. There are several programming languages and frameworks for building apps, but Flutter is the best out of the rest due to its cross-platform support, efficiency and productivity.
 </p>
 
