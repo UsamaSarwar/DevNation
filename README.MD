@@ -1,10 +1,10 @@
-<center>
+<div style="text-align:center">
 <img src="https://usama.dev/DevNation/DevNationLogo.png" alt="DevNation">
 <h1>Flutter Complete Bootcamp</h1>
 <p style="text-align: justify">
 Flutter is a cross-platform framework that empowers businesses to develop natively compiled beautiful and productive applications from a single code base by eliminating the need for separate coders for Mobile, Web, Desktop and Embedded Platforms. There are several programming languages and frameworks for building apps, but Flutter is the best out of the rest due to its cross-platform support, efficiency and productivity.
 </p>
-</center>
+</div>
 
 ## Dart Programming
 > _Programming is an increasingly important skill, whether you aspire to a career in software development or other fields. This season is the first in the specialisation Introduction to Programming in Dart, but its episodes extend to any language you might want to learn like C/C++/C# and Java. This is because programming is fundamentally about figuring out how to solve a class of problems and writing the algorithm, a clear set of steps to solve any problem in its class. This course will introduce you to powerful Object-Oriented Programming in which you can solve any programming problem. In this season, you will learn how to build console-based applications professionally._
