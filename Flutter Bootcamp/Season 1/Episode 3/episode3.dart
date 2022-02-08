@@ -10,9 +10,9 @@ main(){
   // Printing
   print('Season $seasonNo | Episode $episodeNo\n$course \nInstructed by $instructor \nPowered by $organization');
   
-  print('DevNation\'s Instructor'); // I'm an Instructor
-  print("DevNation's Instructor"); // I'm an Instructor
-  print("The name of Instructor is \"Usama Sarwar\""); // I'm an Instructor
+  print('DevNation\'s Instructor'); // DevNation's an Instructor
+  print("DevNation's Instructor"); // DevNation's an Instructor
+  print("Instructor is \"Usama Sarwar\""); // Instructor is "Usama Sarwar"
   
   // String Concatination
   print(instructor + ' is instructor at ' + organization);
