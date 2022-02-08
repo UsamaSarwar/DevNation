@@ -13,4 +13,7 @@ main(){
   print('DevNation\'s Instructor'); // I'm an Instructor
   print("DevNation's Instructor"); // I'm an Instructor
   print("The name of Instructor is \"Usama Sarwar\""); // I'm an Instructor
+  
+  // String Concatination
+  print(instructor + ' is instructor at ' + organization);
 }
