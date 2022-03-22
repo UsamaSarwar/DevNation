@@ -4,83 +4,83 @@ void main(List<String> args) {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
+      // Setting up theme
+      theme: ThemeData(
+        primarySwatch: Colors.red,
+      ),
       home: Scaffold(
-          appBar: AppBar(
-            title: const Text('Expanded UI Widget'),
-          ),
-          body: Column(
-        children: [
-          Expanded(
-            flex: 1,
-            child: SingleChildScrollView(
-              scrollDirection: Axis.horizontal,
-              child: Row(
-                children: const [
-                  Card(
-                    elevation: 5,
-                    child: Icon(
-                      Icons.apple,
-                      color: Colors.grey,
-                      size: 70,
+        appBar: AppBar(
+          centerTitle: true,
+          title: const Text('UI Layout'),
+        ),
+        body: Column(
+          children: [
+            SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: const [
+                    Card(
+                      elevation: 5,
+                      child: Icon(
+                        Icons.apple,
+                        color: Colors.grey,
+                        size: 100,
+                      ),
                     ),
-                  ),
-                  Card(
-                    elevation: 5,
-                    child: Icon(
-                      Icons.android,
-                      color: Colors.grey,
-                      size: 70,
+                    Card(
+                      elevation: 5,
+                      child: Icon(
+                        Icons.android,
+                        color: Colors.grey,
+                        size: 100,
+                      ),
                     ),
-                  ),
-                  Card(
-                    elevation: 5,
-                    child: Icon(
-                      Icons.car_repair,
-                      color: Colors.grey,
-                      size: 70,
+                    Card(
+                      elevation: 5,
+                      child: Icon(
+                        Icons.car_repair,
+                        color: Colors.grey,
+                        size: 100,
+                      ),
                     ),
-                  ),
-                  Card(
-                    elevation: 5,
-                    child: Icon(
-                      Icons.check_box,
-                      color: Colors.grey,
-                      size: 70,
+                    Card(
+                      elevation: 5,
+                      child: Icon(
+                        Icons.check_box,
+                        color: Colors.grey,
+                        size: 100,
+                      ),
                     ),
-                  ),
-                  Card(
-                    elevation: 5,
-                    child: Icon(
-                      Icons.power_off_outlined,
-                      color: Colors.grey,
-                      size: 70,
+                    Card(
+                      elevation: 5,
+                      child: Icon(
+                        Icons.power_off_outlined,
+                        color: Colors.grey,
+                        size: 100,
+                      ),
                     ),
-                  ),
-                  Card(
-                    elevation: 5,
-                    child: Icon(
-                      Icons.light_mode,
-                      color: Colors.grey,
-                      size: 70,
+                    Card(
+                      elevation: 5,
+                      child: Icon(
+                        Icons.light_mode,
+                        color: Colors.grey,
+                        size: 100,
+                      ),
                     ),
-                  ),
-                  Card(
-                    elevation: 5,
-                    child: Icon(
-                      Icons.lightbulb,
-                      color: Colors.grey,
-                      size: 70,
+                    Card(
+                      elevation: 5,
+                      child: Icon(
+                        Icons.lightbulb,
+                        color: Colors.grey,
+                        size: 100,
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
-            ),
-          ),
-          Expanded(
-            flex: 6,
-            child: SingleChildScrollView(
+            SingleChildScrollView(
               child: Column(
-                children: const [
+                children: const  [
                   // Listing down operating systems
                   Card(
                     elevation: 5,
@@ -220,9 +220,9 @@ void main(List<String> args) {
                 ],
               ),
             ),
-          ),
-        ],
-      )),
+          ],
+        ),
+      ),
     ),
   );
 }
