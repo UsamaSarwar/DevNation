@@ -9,7 +9,7 @@ void main() {
 class GetxApp extends StatelessWidget {
   GetxApp({Key? key}) : super(key: key);
 
-  final Controller _controller = Get.put(Controller());
+  final Controller _controller = Get.put(Controller()); // Get.find();
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +35,9 @@ class GetxApp extends StatelessWidget {
           child: ElevatedButton(
             onPressed: () {
               /// Switching Theme Logic
-              Get.changeTheme(Get.isDarkMode ? ThemeData.light(): ThemeData.dark());
+              Get.changeTheme(
+                  Get.isDarkMode ? ThemeData.light() : ThemeData.dark());
+
               /// if (Get.isDarkMode) {
               ///  Get.changeTheme(ThemeData.light());
               /// } else {
@@ -43,8 +45,8 @@ class GetxApp extends StatelessWidget {
               /// }
 
               /// Counter Logic
-              // _controller.counter.value++;
-              // print('Counter: ${_controller.counter.value}');
+              _controller.counter.value++;
+              print('Counter: ${_controller.counter.value}');
             },
             child: const Text('Counter++'),
           ),
