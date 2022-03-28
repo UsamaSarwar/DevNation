@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://usama.dev/DevNation/DevNationLogo.png" alt="</> DevNation">
+<img src="https://usamasarwar.github.io/DevNation/DevNationLogo.png" alt="</> DevNation">
 </p>
 
 <h1 align="center">Flutter Complete Bootcamp</h1>
