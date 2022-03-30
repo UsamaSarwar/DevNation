@@ -1,5 +1,7 @@
 // Printing Statements in Dart
 main(){
+  print("Hello World");
+  print('Hello Again');
   // Variable Initialization
   String instructor = 'Usama Sarwar';
   String course = 'Flutter Bootcamp';
