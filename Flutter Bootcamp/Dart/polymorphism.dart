@@ -22,6 +22,17 @@ class Car extends Vehicle {
             tyres: 4); // Alternative way to do it
 }
 
+// class Honda extends Car {
+//   Honda() : super(color: 'Red', engine: '1000cc', tyres: 4);
+// }
+
+class Motorcycle extends Vehicle {
+  Motorcycle()
+      : super(
+            color: 'Black',
+            engine: '125cc',
+            tyres: 2); // Alternative way to do it
+}
 
 main(List<String> args) {
   /// Alternative way to do it
@@ -29,4 +40,7 @@ main(List<String> args) {
   print(
       'CAR => Tyres: ${car.tyres} || Color: ${car.color} || Engine: ${car.engine}');
   
+  Motorcycle motorcycle = Motorcycle();
+  print(
+      'MOTORCYCLE => Tyres: ${motorcycle.tyres} || Color: ${motorcycle.color} || Engine: ${motorcycle.engine}');
 }
